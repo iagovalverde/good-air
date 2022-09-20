@@ -28,6 +28,20 @@ button {
     background-color: black;
     color: white;
     border-radius: 15px;
+    transition-duration: .2s;
+    box-shadow: 1px 3px 3px black;
+}
+
+.home:hover {
+    transform: scale(1.05);
+}
+
+.reservas:hover {
+    transform: scale(1.05);
+}
+
+.duvidas:hover {
+    transform: scale(1.05);
 }
 
 header div {
@@ -93,6 +107,7 @@ div.background > p {
 .centro {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     gap: 100px;
@@ -101,6 +116,14 @@ div.background > p {
 .centro .logo {
     width: 300px;
     height: 300px;
+}
+
+.logo {
+    transition: .4s;
+}
+
+.logo:hover {
+    transform: scale(1.1);
 }
 
 .viajar {
@@ -118,6 +141,7 @@ div.viajar p {
     margin: 30px;
     display: flex;
     justify-content: center;
+    text-align: center;
     font-family: 'Times New Roman', Times, serif;
     font-size: 24px;
 }
@@ -133,7 +157,34 @@ div.imagens3 {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: space-around;  
+}
+
+.puertomadero {
+    margin: 15px;
+    transition: transform .3s;
+}
+
+.puertomadero:hover {
+    transform: scale(1.1);
+}
+
+.baires {
+    margin: 15px;
+    transition: transform .3s;
+}
+
+.baires:hover {
+    transform: scale(1.1);
+}
+
+.bombonera {
+    margin: 15px;
+    transition: transform .3s;
+}
+
+.bombonera:hover {
+    transform: scale(1.1);
 }
 
 div.video {
