@@ -7,6 +7,7 @@
 
 body {
     background-color: rgb(255, 241, 219);
+    overflow-x: hidden;
 }
 
 nav {
@@ -215,3 +216,6 @@ footer {
     color: white;
 }
 
+::-webkit-scrollbar {
+    
+}
